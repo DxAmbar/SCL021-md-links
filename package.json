@@ -9,6 +9,9 @@
   "directories": {
     "test": "test"
   },
+  "bin": {
+    "mdlinks": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,6 +26,8 @@
   },
   "homepage": "https://github.com/DxAmbar/SCL021-md-links#readme",
   "dependencies": {
-    "md-links": "^0.1.0"
+    "colors": "^1.4.0",
+    "md-links": "^0.1.0",
+    "parse-md": "^2.0.0"
   }
 }
